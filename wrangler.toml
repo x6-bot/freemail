@@ -1,4 +1,4 @@
-name = "mailfree"
+name = "freemail"
 main = "src/server.js"  # 关键：入口文件在 src 文件夹里
 compatibility_date = "2024-01-01"
 compatibility_flags = ["nodejs_compat"]
