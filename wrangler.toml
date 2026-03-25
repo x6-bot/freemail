@@ -6,8 +6,8 @@ compatibility_flags = ["nodejs_compat"]
 # D1 数据库绑定（保持你原有的配置）
 [[d1_databases]]
 binding = "TEMP_MAIL_DB"
-database_name = "maill_free_db"
-database_id = "c82663ac-62b6-4ba6-be81-cbe297f2a3dd"
+database_name = "maill_free_6473t"
+database_id = "f95d441d-b9b6-4c95-bb7b-27bd121f106a"
 
 # 静态资源
 [assets]
