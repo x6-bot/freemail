@@ -1,4 +1,4 @@
-name = "mailfree"
+name = "freemail"
 # name = "mail-exhibit"
 main = "server.js"  # 关键：这里必须是 server.js，不是 src/server.js
 compatibility_date = "2024-01-01"
