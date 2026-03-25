@@ -1,28 +1,19 @@
-name = "freemail"
-# name = "mail-exhibit"
-main = "server.js"  # 关键：这里必须是 server.js，不是 src/server.js
+name = "mailfree"
+main = "server.js"  # 严格小写，无任何前缀/路径
 compatibility_date = "2024-01-01"
 
-# D1 数据库绑定
+# D1 数据库绑定（保留你原有的配置）
 [[d1_databases]]
 binding = "TEMP_MAIL_DB"
 database_name = "maill_free_db"
 database_id = "c82663ac-62b6-4ba6-be81-cbe297f2a3dd"
 
-# 环境变量
-[vars]
-# FORWARD_RULES="[{\"prefix\":\"vip\",\"email\":\"a@example.com\"},{\"prefix\":\"*\",\"email\":\"2141083706@qq.com\"}]"
-
-# 静态资源目录
+# 静态资源（保留）
 [assets]
 directory = "public"
 binding = "ASSETS"
 
-# R2 已全部注释
+# R2 全部注释（禁用）
 #[[r2_buckets]]
 #binding = "MAIL_EML"
 #bucket_name = "mail-eml"
-
-# 日志服务
-# [observability.logs]
-# enabled = true
