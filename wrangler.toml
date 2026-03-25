@@ -1,6 +1,6 @@
 name = "mailfree"
 # name = "mail-exhibit"
-main = "src/server.js"
+main = "server.js"  # 这里改对了！
 compatibility_date = "2024-01-01"
 
 # D1 数据库绑定
@@ -20,7 +20,6 @@ directory = "public"
 # 显式指定绑定名，确保在 Worker 中通过 env.ASSETS 可用
 binding = "ASSETS"
 
-# ========== R2 已全部注释，禁用不使用 ==========
 # R2 存储桶绑定（用于保存完整 EML 内容）
 #[[r2_buckets]]
 #binding = "MAIL_EML"
