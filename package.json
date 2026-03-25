@@ -1,0 +1,7 @@
+{
+  "name": "mailfree",
+  "type": "module",
+  "dependencies": {
+    "wrangler": "^4.77.0"
+  }
+}
