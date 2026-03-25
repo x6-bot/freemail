@@ -15,8 +15,8 @@ import { createRouter, authMiddleware } from './routes/index.js';
 import { createAssetManager } from './assets/index.js';
 import { extractEmail } from './utils/common.js';
 import { forwardByLocalPart, forwardByMailboxConfig } from './email/forwarder.js';
-import { parseEmailBody, extractVerificationCode } from '.src/email/parser.js';
-import { getForwardTarget } from '.src/db/mailboxes.js';
+import { parseEmailBody, extractVerificationCode } from './email/parser.js';
+import { getForwardTarget } from './db/mailboxes.js';
 
 export default {
   /**
